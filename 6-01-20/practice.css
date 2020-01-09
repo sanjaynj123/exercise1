@@ -1,0 +1,56 @@
+ *{
+ 	margin:auto;
+ }
+ .blog-header {
+    line-height: 1;
+    border-bottom: 1px solid #e5e5e5;
+}
+.pb-3, .py-3 {
+    padding-bottom: 1rem!important;
+}
+.pt-3, .py-3 {
+    padding-top: 1rem!important;
+}
+
+.flex-nowrap {
+     
+    flex-wrap: nowrap!important;
+}
+.row {
+   
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.pt-1, .py-1 {
+    padding-top: .25rem!important;
+}
+
+.col-4 {
+    flex: 0 0 33.333333%;
+     
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+ .nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+}
+.pb-1, .py-1 {
+    padding-bottom: .25rem!important;
+}
+.pt-1, .py-1 {
+    padding-top: .25rem!important;
+}
+.mb-2, .my-2 {
+    margin-bottom: .5rem!important;
+}
+.row {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}

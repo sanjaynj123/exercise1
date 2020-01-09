@@ -1,0 +1,14 @@
+*{
+	margin:auto;
+	max-width: 960px;
+}
+.blog-header {
+    line-height: 1;
+    border-bottom: 1px solid #e5e5e5;
+}
+.pb-3, .py-3 {
+    padding-bottom: 1rem!important;
+}
+ .align-items-center {
+    align-items: center!important;
+}
