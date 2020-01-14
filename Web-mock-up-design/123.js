@@ -1,1 +1,3 @@
-document.getElementById("demo")
+  function date() {
+  	document.getElementById("demo").innerHTML = Date();
+  }
