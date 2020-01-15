@@ -1,0 +1,10 @@
+script1.js:1 Failed to load resource: net::ERR_FILE_NOT_FOUND
+console.log(2+3);
+VM96:1 5
+undefined
+console.log("hi"+"there");
+VM169:1 hithere
+undefined
+console.log(2+"hi")
+VM220:1 2hi
+undefined

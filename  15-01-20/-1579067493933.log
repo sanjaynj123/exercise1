@@ -1,0 +1,73 @@
+script1.js:1 Failed to load resource: net::ERR_FILE_NOT_FOUND
+console.log(2+3);
+VM96:1 5
+undefined
+console.log("hi"+"there");
+VM169:1 hithere
+undefined
+console.log(2+"hi")
+VM220:1 2hi
+undefined
+prompt("enter some value");
+"54"
+var num1=console.log(typeof num1);
+VM389:1 undefined
+undefined
+console.log(parseInt(num1);
+VM492:1 Uncaught SyntaxError: missing ) after argument list
+console.log(parseInt(nun1)+9);
+VM594:1 Uncaught ReferenceError: nun1 is not defined
+    at <anonymous>:1:22
+(anonymous) @ VM594:1
+alert("hi");
+undefined
+console.log(2-1);
+VM690:1 1
+undefined
+var diff=3;
+undefined
+console.log(diff);
+VM791:1 3
+undefined
+var s=9;
+undefined
+s+=8;
+17
+console.log(s);
+VM873:1 17
+undefined
+var s1=8;
+undefined
+var s2=9;
+undefined
+if(condition) }
+VM974:1 Uncaught SyntaxError: Unexpected token '}'
+if(condition) {
+    (s1==s2)
+    console.log("s1=s2");
+}
+VM1113:1 Uncaught ReferenceError: condition is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM1113:1
+else
+VM1128:1 Uncaught SyntaxError: Unexpected token 'else'
+}
+VM1135:1 Uncaught SyntaxError: Unexpected token '}'
+else {
+VM1154:1 Uncaught SyntaxError: Unexpected token 'else'
+console.log(1>2?true;false);
+VM1251:1 Uncaught SyntaxError: Unexpected token ';'
+console.log(1>2?true:false);
+VM1337:1 false
+undefined
+age=prompt("enter your age");
+"sa"
+age=parseInt(age);
+age=parseInt(age);
+NaN
+NaN
+if(age>60)
+    document.write("as your are name");
+undefined
+}
+VM1587:1 Uncaught SyntaxError: Unexpected token '}'
