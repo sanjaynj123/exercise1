@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>the calculator</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>	
+		<div class="formstyle">
+ 	 	<form name="forms">
+ 	 		<input type="text" name="answer" id="answerstyle">
+ 	 		<br></br>
+	     <input type="button" value="7" onclick="forms.answer.value +='7'">
+ 	 	<input type="button" value="8" onclick="forms.answer.value +='8'">
+ 	 	<input type="button" value="9" onclick="forms.answer.value +='9'">
+ 	 	<br></br>
+ 	 	<input type="button" value="4" onclick="forms.answer.value +='4'">
+ 	 	<input type="button" value="5" onclick="forms.answer.value +='5'">
+ 	 	<input type="button" value="6" onclick="forms.answer.value +='6'">
+ 	 	<br></br>
+ 	 	<input type="button" value="3" onclick="forms.answer.value +='3'">
+ 	 	<input type="button" value="2" onclick="forms.answer.value +='2'">
+ 	 	<input type="button" value="1" onclick="forms.answer.value +='1'">
+        <br></br>
+        <input type="button" value="+" onclick="forms.answer.value +='+'">
+ 	 	<input type="button" value="-" onclick="forms.answer.value +=-">
+ 	 	<input type="button" value="*" onclick="forms.answer.value +='*'">
+ 	 	 <br></br>
+	     <button type="button" class="btn btn-primary" onclick="add()">Add</button>
+ 	 	 <button type="button" class="btn btn-primary" onclick="sub()">sub</button>
+ 	 	 <button type="button" class="btn btn-primary" onclick="mul()">mul</button>
+ 	 	 <button type="button" class="btn btn-primary" onclick="div()">div</button>
+ 	 	<br></br>
+ 	 	 
+ 	 	<input type="button" value="clear" onclick="forms.answer.value ='' " id="clear">
+
+</body>
+<script>
+ function add() {
+ 	 	var a,b,c;
+ 	 	a=Number(document.getElementById('first').value);
+ 	 	b=Number(document.getElementById("second").value);
+ 	 	c=a+b;
+ 	 	document.getElementById('answer').value=c;
+ 	 }
+ 	 function sub() {
+ 	 	var a,b,c;
+ 	 	a=Number(document.getElementById('first').value);
+ 	 	b=Number(document.getElementById('second').value);
+ 	 	c=a-b;
+ 	 	document.getElementById('answer').value=c;
+ 	 }
+ 	 function mul() {
+ 	 	var a,b,c;
+ 	 	a=Number(document.getElementById('first').value);
+ 	 	b=Number(document.getElementById('second').value);
+ 	 	c=a*b;
+ 	 	document.getElementById('answer').value=c;
+ 	 }
+ 	 function div() {
+ 	 	var a,b,c;
+ 	 	a=Number(document.getElementById('first').value);
+ 	 	b=Number(document.getElementById('second').value);
+ 	 	c=a/b;
+ 	 	document.getElementById('answer').value=c;
+ 	 
+ 	 </script>
+ 	 </html>
