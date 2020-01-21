@@ -1,13 +1,17 @@
-function pallin()
-{
-	var i;
- var str1 =";
- var str2 =str.length;
-for (int i = str1.length; i<string; i--) {
-   String=str1.length[i];
-	}
-	
-	alert("is a pallindrome");
-  
+ function reverseString() {
+    // document.getElementById("num").value=num;
+ 	var str1=document.getElementById("num").value;
+    var splitString = str1.split(""); 
+    var reverseArray = splitString.reverse(); 
+    var joinArray = reverseArray.join("");
+    console.log(joinArray); 
+    if(str1==joinArray){
+    	alert("string is palindrome");
+    }
+    else
+    {
+
+    	alert("string is not a palindrome");
+    }
 }
-str2=str1
+ // reverseString("hello")
