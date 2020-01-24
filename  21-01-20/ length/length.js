@@ -1,5 +1,8 @@
-function myFunction() {
-  var str = "Hello World!";
-  var n = str.length;
-  document.getElementById("demo").innerHTML = n;
+ function myFunction(str) {
+  var length = 0;
+  while (str[length] !== undefined)
+  	console.log("sanjay");   
 }
+
+  
+  
