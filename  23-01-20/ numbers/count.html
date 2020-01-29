@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>JavaScript to find Vowels from String!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Load Bootstrap library for better UI look & feel -->
+    <link rel="stylesheet" type="text/css" media="screen" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+    <!-- Load the jQuery & jQuery UI libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script>
+      function findVowels(){[	  
+		//set an array of vowels here
+		var vowels = ['a', 'e', 'i', 'o', 'u'];
+		var vowelsFound = [];
+		//get the string from textbox
+		var txt = document.getElementById("txt").value;
+		//loop each character from string and find the vowels
+		for(i=0; i < txt.length; i++){
+			if(vowels.indexOf(txt[i]) != -1){
+				vowelsFound.push(txt[i]);
+			}
+		}
+		document.getElementById("result").innerHTML = "<p><strong>Vowels found:</strong> "+ vowelsFound +"</p><p><strong>Vowels count:</strong> "+ vowelsFound.length +"</p>";
+	  }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <br />
+        <h2>JavaScript to find Vowels in a String by tutorialsmade.com</h2>
+        <br />
+        <form action="" id="myform">
+            <div class="form-group">
+              <label for="txt">Enter Text:</label>
+              <input type="text" class="form-control req" id="txt" >
+            </div>
+            <div class="form-group">
+			  <div id="result"></div>
+			</div>
+            <button type="button" class="btn btn-success" onclick="findVowels()">Submit</button>
+          </form>
+    </div>
+</body>
+</html>

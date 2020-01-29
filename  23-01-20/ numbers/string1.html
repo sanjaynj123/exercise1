@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>count the characters</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container">
+		<div class="row mt-5">
+			<div class="col-md-3">
+			</div>
+				<div class="card-body">
+					<div class="form-group">
+						<label for="pallindromeString"> Enter  the string </label>
+						<input type="text"  id="demo">
+					</div> 
+					</div>
+					<button class="btn btn-primary" onclick=" count()">Submit</button>
+				</div>
+			</div>
+			<div class="col-md-3">
+			</div>
+</body>
+<script>
+	function count(){
+	var str='dddssasvc';
+ 	var chars=str.split("");
+ 	var letters_count={};
+ 	document.getElementById('demo')
+ 	 for(var i=0;i<chars.length;i++)
+ 	 {	if(letters_count[chars[i]]==undefined)
+ 	 	letters_count[chars[i]]=0;
+ 	 	letters_count[chars[i]]++;
+ 	 }
+    for(var i in letters_count)
+    {
+    	console.log(i+ '=' +letters_count[i]);
+
+    }
+}
+</script>
+</html>

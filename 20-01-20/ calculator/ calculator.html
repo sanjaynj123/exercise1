@@ -1,0 +1,75 @@
+ 
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<title>add number</title>
+ 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+ </head>
+ <style>
+ 	*{	list-style-type: none;
+ 		text-align: center;
+ 		border:1px solid #000;
+ 		 
+ 	} 
+ 		
+ 	</style>
+ 	<body>
+	<div class="container">
+		<div class="row mt-5">
+			<div class="col-md-3">
+			</div>
+				<div class="card-body">
+					<div class="form-group">
+						<label for="pallindromeString"> Enter first number</label>
+						<input type="text" class="form-control" id="first" value="" placeholder="Enter a String">
+					</div>
+					<div class="form-group">
+						<label for="pallindromeString"> Enter Second number</label>
+						<input type="text" class="form-control" id="second" value="" placeholder="Enter a String">
+					</div>
+					<button class="btn btn-primary" onclick=" calCulator()">Submit</button>
+				</div>
+			</div>
+			<div class="col-md-3">
+			</div>
+		</div>
+	</div>
+</body>
+ <script>
+ 	 function add() {
+ 	 	var a,b,c;
+ 	 	a=Number(document.getElementById('first').value);
+ 	 	b=Number(document.getElementById('second').value);
+ 	 	c=a+b;
+ 	 	document.getElementById('answer').value=c;
+ 	 }
+ 	 function sub() {
+ 	 	var a,b,c;
+ 	 	a=Number(document.getElementById('first').value);
+ 	 	b=Number(document.getElementById('second').value);
+ 	 	c=a-b;
+ 	 	document.getElementById('answer').value=c;
+ 	 }
+ 	 function mul() {
+ 	 	var a,b,c;
+ 	 	a=Number(document.getElementById('first').value);
+ 	 	b=Number(document.getElementById('second').value);
+ 	 	c=a*b;
+ 	 	document.getElementById('answer').value=c;
+ 	 }
+ 	 function div() {
+ 	 	var a,b,c;
+ 	 	a=Number(document.getElementById('first').value);
+ 	 	b=Number(document.getElementById('second').value);
+ 	 	c=a/b;
+ 	 	document.getElementById('answer').value=c;
+ 	 }
+ 	 function mod() {
+ 	 	var a,b,c;
+ 	 	a=Number(document.getElementById('first').value);
+ 	 	b=Number(document.getElementById('second').value);
+ 	 	c=a%b;
+ 	 	document.getElementById('answer').value=c;
+ 	 }
+ </script>
+ </html>
