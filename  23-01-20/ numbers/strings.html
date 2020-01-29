@@ -1,73 +1,14 @@
-<!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<title>the js</title>
 </head>
 <body>
-	 <div class="container p-8 m-3 ">
-  <div class="row">
-    <div class="col">
-    </div>
-    <div class="col">
-    	<div class="card ">
-    		<div class="card-header">
-    					<label>Enter the string</label>
-  					</div>
-    	<div class="card-body text-center">
-					
-					<div class="form-group">
-						<input type="text" class="form-control" id="demo">
-						<button class="btn btn-primary pt-1"  onclick=" find_char()">Submit</button>
-					</div>
-				</div>
-       </div>
-    </div>
-    <div class="col">
-    </div>
-  </div>
-
-  <div class="row pt-5">
-    <div class="col-4">
-    </div>
-    <div class="col-4">
-    	<div class="card">
-    		<div class="card-header">
-    					<label>Enter the string</label>
-  					</div>
-    	<div class="card-body">
-					
-					<div class="form-group">
-						<label id="num"></label>
-						 
-				</div>
-       </div>
-    </div>
-    <div class="col-4">
-    </div>
-  </div>
-</div>
-
-</body>
+	</body>
 <script>
- function find_char(){
- 	var  a;
- 	var b=[];
- 	str=document.getElementById('demo').value;
- 	var chars=str.split("");
- 	var letters_count={};
- 	 for(var i=0;i<chars.length;i++)
- 	 {	
- 	 	if(letters_count[chars[i]]==undefined)
- 	 	letters_count[chars[i]]=0;
- 	 	letters_count[chars[i]]++; 
- 	 }
-    for(var i in letters_count)
-    {
-    	 b.push(i+ '=' +letters_count[i]);
-    	 document.getElementById("num").innerHTML=b;	  
-    }
-    } 
+let iceCream = 'chocolate';
+if(iceCream === 'chocolate') {
+  alert('Yay, I love chocolate ice cream!');    
+} else {
+  alert('Awwww, but chocolate is my favorite...');    
+}
 </script>
-</html>
- 

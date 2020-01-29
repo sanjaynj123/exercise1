@@ -1,0 +1,54 @@
+[33m0d5e840[m[33m ([m[1;36mHEAD -> [m[1;32mdevelop[m[33m, [m[1;31morigin/develop[m[33m)[m HEAD@{0}: commit: create a file
+[33m36b55aa[m HEAD@{1}: checkout: moving from sam to develop
+[33m6c1e397[m[33m ([m[1;31morigin/sam[m[33m, [m[1;32msam[m[33m)[m HEAD@{2}: checkout: moving from sub to sam
+[33m23954b5[m[33m ([m[1;31morigin/sub[m[33m, [m[1;32msub[m[33m)[m HEAD@{3}: pull origin sub: Fast-forward
+[33m0f361a8[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m HEAD@{4}: checkout: moving from master to sub
+[33m0f361a8[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m HEAD@{5}: checkout: moving from develop to master
+[33m36b55aa[m HEAD@{6}: checkout: moving from sam to develop
+[33m6c1e397[m[33m ([m[1;31morigin/sam[m[33m, [m[1;32msam[m[33m)[m HEAD@{7}: commit: wip
+[33m36b55aa[m HEAD@{8}: checkout: moving from develop to sam
+[33m36b55aa[m HEAD@{9}: checkout: moving from sum1 to develop
+[33m0ef4855[m HEAD@{10}: commit: add the files
+[33m4eabf33[m HEAD@{11}: commit: assignements on javascript which i did
+[33m204821a[m HEAD@{12}: commit: create the file
+[33m805555c[m HEAD@{13}: commit: add a file
+[33m15819ec[m HEAD@{14}: commit: create a file
+[33m36b55aa[m HEAD@{15}: checkout: moving from develop to sum1
+[33m36b55aa[m HEAD@{16}: checkout: moving from sum1 to develop
+[33m36b55aa[m HEAD@{17}: checkout: moving from develop to sum1
+[33m36b55aa[m HEAD@{18}: checkout: moving from develop to develop
+[33m36b55aa[m HEAD@{19}: merge sum1: Fast-forward
+[33m5c0aa6f[m HEAD@{20}: checkout: moving from sum1 to develop
+[33m36b55aa[m HEAD@{21}: commit: create a file
+[33m011c697[m HEAD@{22}: checkout: moving from sum1 to sum1
+[33m011c697[m HEAD@{23}: commit: add the file
+[33m5c0aa6f[m HEAD@{24}: checkout: moving from develop to sum1
+[33m5c0aa6f[m HEAD@{25}: merge sub: Fast-forward
+[33mc7dab1f[m HEAD@{26}: checkout: moving from sub to develop
+[33m5c0aa6f[m HEAD@{27}: commit: add files
+[33m95bf35e[m HEAD@{28}: commit: push to branch
+[33m23954b5[m[33m ([m[1;31morigin/sub[m[33m, [m[1;32msub[m[33m)[m HEAD@{29}: commit: create the files
+[33mc7dab1f[m HEAD@{30}: checkout: moving from develop to sub
+[33mc7dab1f[m HEAD@{31}: checkout: moving from develop to develop
+[33mc7dab1f[m HEAD@{32}: checkout: moving from sub to develop
+[33mc7dab1f[m HEAD@{33}: checkout: moving from develop to sub
+[33mc7dab1f[m HEAD@{34}: commit: add the files which i did
+[33m5a8010a[m HEAD@{35}: commit: create a file
+[33mbda948a[m HEAD@{36}: checkout: moving from develop to develop
+[33mbda948a[m HEAD@{37}: commit: create a file
+[33m38f4ff2[m HEAD@{38}: merge subbranch: Fast-forward
+[33ma1cc7e9[m HEAD@{39}: checkout: moving from subbranch to develop
+[33m38f4ff2[m HEAD@{40}: commit: create a file
+[33ma1cc7e9[m HEAD@{41}: checkout: moving from subbranch to subbranch
+[33ma1cc7e9[m HEAD@{42}: checkout: moving from subranch2 to subbranch
+[33m0f361a8[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m HEAD@{43}: checkout: moving from subbranch to subranch2
+[33ma1cc7e9[m HEAD@{44}: checkout: moving from develop to subbranch
+[33ma1cc7e9[m HEAD@{45}: checkout: moving from master to develop
+[33m0f361a8[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m HEAD@{46}: checkout: moving from develop to master
+[33ma1cc7e9[m HEAD@{47}: commit: create the file
+[33m0f361a8[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m HEAD@{48}: checkout: moving from master to develop
+[33m0f361a8[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m HEAD@{49}: pull origin master: Merge made by the 'recursive' strategy.
+[33m73c88c4[m HEAD@{50}: commit: create another file
+[33m659f8c5[m HEAD@{51}: commit: modify a file
+[33ma459cba[m HEAD@{52}: commit: hi sanjay
+[33mce05c45[m HEAD@{53}: commit (initial): created a file
