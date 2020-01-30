@@ -6,55 +6,40 @@
 </head>
 <body>
 	 <div class="container"style="margin-top: 2%;">
-	 	<div class="card-body text-center">
-	 	<div class="card">
+	 	<div class="row">
+  <div class="col-sm-8">
+    <div class="card">
 	 	<div class="card-header">
              THE BOOK
   				</div>
-		<div class="row mt-5">
-			<div class="col-md-3">
-			</div>
 				<div class="card-body">
   <div class="form-group">
     <label>Name</label>
     <input type="text" class="form-control" id="title" placeholder="Enter the String">
   </div>
   <div class="form-group">
-    <label>price</label>
+    <label>Price</label>
     <input type="text" class="form-control" id="price" placeholder="Enter the Price">
   </div>
-  <label>quality</label>
+  <label>Quality</label>
     <input type="text" class="form-control" id="quality" placeholder="Enter the Price">
   
-<button class="btn btn-primary" style="margin-top: 2%;"onclick="add()">add</button>
+<button class="btn btn-primary" style="margin-top: 2%;"onclick="add()">Add</button>
 </div>
-			<div class="col-md-3">
-			</div>
+</div>
 		</div>
-	</div> 
-</div>
-</div>
-<div class="container"style="margin-top:3%;">
-<div class="card text-center">
-	<div class="card">
-  <div class="card-header">
-    GET THE BOOK
+   <div class="col-sm-4">
+    <div class="card"style="height:21em !important;">
+    	<div class="card-header">
+             BOOK Details
+  				</div>
+      <div class="card-body">
+        <h5 class="card-title"id="get_book"></h5>
+      </div>
+    </div>
   </div>
-		<div class="row mt-5">
-			<div class="col-md-3">
-			</div>
-				<div class="card-body">
-					 
-   
-    <label id="get_book"></label>
-  </div>
- 	<div class="col-md-3">
-			</div>
-		</div>
-	</div>
 </div>
-</div>
-
+ </div>
 </body>
 <script> 
 	function add() {
@@ -62,18 +47,17 @@
  	title=document.getElementById("title").value;
  	price=(document.getElementById("price").value);
  	quality=(document.getElementById("quality").value);
- 	
- 	//console.log(title);
- 	//console.log(price);
- 	//console.log(quality);
- 	  var book={
- 	  name:title,
- 	  price:price,
- 	  quality:quality
- 	 };
+ 	 var total=price * quality;
+ 	 //  var book={
+ 	 //  name:title,
+ 	 //  price:price,
+ 	 //  quality:quality,
+ 	 //  total:total
+ 	 // };
  	 document.getElementById("get_book").innerHTML =
- 	 book.name+ " " +book.price +" "+book.quality;
-}
+ 	 "title of the book is"+" "+ + "<br> the book price is" +" "+book.price+ "<br> the quality of the book is"+" "+book.quality+ " "+"<br> the total amount is" +" "+book.total;
+
+ 	  }
 </script>
 </html>
  
