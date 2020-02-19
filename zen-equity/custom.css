@@ -1,0 +1,267 @@
+ a {
+    color:black;
+    text-decoration: none;
+    background-color: transparent;
+}
+ /*rm-header{
+ 	padding:4px;
+ 	width:1px;
+ }*/
+  .btn{
+  	color: black;
+  	margin-top: 4px;
+  	border-radius: 0px;
+    background: #eee3ff 0% 0% no-repeat padding-box;
+    border:none;
+    margin:18px;
+  }
+  *, ::after, ::before {
+     box-sizing: border-box; 
+}
+.nav-link {
+    display: block;
+    padding: 1.5rem 1rem;
+}
+.img1{
+	text-align: center;
+  margin-left:383px;
+  margin-top:-98px !important;
+	margin-top:90px;
+	margin-left: 186px! important;
+  margin-right: auto;
+  }
+/*.group{
+top: 173px;
+left: 760px;
+width: 17px;
+height: 19px;
+background: transparent url('img/Group 35.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+  }*/
+/*.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-left: 309px;
+}*/
+/*.rect1{
+width: 242px;
+height: 64px;
+border: 1px solid #6500FF;
+border-radius: 2px;
+opacity: 1; 
+margin-left: 256px;
+}*/
+ img {
+vertical-align: middle;
+border-style: none; 
+margin-bottom: 21px;
+margin-top: 120px !important;
+margin-left:13px!important;
+}
+/*.img{
+   top: 601px;
+   left: 799px;
+   width: 18px;
+  height: 8px;
+  background: transparent url('img/Eye.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}*/
+
+     /*margin-top: -96px;
+     margin-left:-115px;*/
+   /*}
+   .rect-para{
+    width: 198px;
+   text-align: center;
+    opacity: 1;
+    margin:12px;
+   }
+  */
+  h1{
+    text-align: center;
+    font: Medium 91px/101px Space Grotesk;
+    letter-spacing: 3.82px;
+    color: #191919;
+    opacity: 1;
+  }
+  .para{
+    text-align: center;
+    font: Medium 18px/34px Space Grotesk;
+    letter-spacing: 0.76px;
+    color: #191919;
+    opacity: 1;
+  }
+  .text-center{
+    text-align: cenetr;
+    margin-top:-33px;
+  }
+  h6{
+    text-align: center;
+    font: Medium 16px/17px Space Grotesk;
+    letter-spacing: 0.67px;
+    color: #191919;
+    opacity: 1;
+    margin-top:-31px;
+  }
+   
+  .card1{
+    margin-left:12px;
+  }
+  .plat{
+    text-align: left;
+    font: Medium 32px/35px Space Grotesk;
+    letter-spacing: 1.34px;
+    color: #191919;
+    opacity: 1;
+  }
+  .company{
+    width: 105px;
+    height: 41px;
+
+  }
+  p{
+    color:black;
+  }
+  .border-success {
+    border-color: #1b1d1b!important;
+}
+.row {
+    /*display: -ms-flexbox;*/
+    display: flex;
+    /*-ms-flex-wrap: wrap;
+    flex-wrap: wrap;*/
+    /* margin-right: -15px; */
+    /* margin-left: -15px; */
+}
+.bg-color{
+  margin-top:100px;
+  background: #6500FF 0% 0% no-repeat padding-box;
+  opacity: 1;
+ height: 582px;
+}
+.dot{
+  background: #7D2AFF 0% 0% no-repeat padding-box !important;
+  opacity: 1;
+  top: 3424px;
+  left: 812px;
+  width: 49px;
+  height: 48px;
+  border-radius: 33px;
+}
+
+.circle{
+  margin-top:54px;
+  margin-left:505px;
+  border-radius:50;
+}
+.bord{ 
+     width: 224px;
+    height: 65px;
+    opacity: 1;
+    border: 1px solid #6500FF;
+    margin-top: -65px;
+    margin-left: 46px;
+    z-index: -99999;
+    position: relative;
+}
+.rect1{
+width: 242px;
+height: 65px;
+border: 1px solid #6500FF;
+border-radius: 2px;
+opacity: 1; 
+margin-left: 256px;
+}
+.space{
+   width: 242px;
+    height: 64px;
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+    opacity: 1;
+    margin-left: 126px;
+}
+.fa{
+  display:inline-block;
+  border-radius:60px;
+  box-shadow: 0px 0px 2px #888;
+  padding:0.5em 0.6em;
+  background-color:#6500FF;
+   
+}
+ .border-success {
+    border-color: #2522bd!important;
+}
+/*.currencyinput {
+    border: 1px inset #ccc;
+}
+.currencyinput input {
+    border: 0;
+}
+#custom-search-form {
+        margin:0;
+        margin-top: 5px;
+        padding: 0;
+    }
+ 
+    #custom-search-form .search-query {
+        padding-right: 3px;
+        padding-right: 4px \9;
+        padding-left: 3px;
+        padding-left: 4px \9;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+ 
+        /*margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+ */
+    /*#custom-search-form button {
+        border: 0;
+        background: none;
+        /** belows styles are working good */
+        /*padding: 2px 5px;
+        margin-top: 2px;
+        position: relative;
+        left: -28px;*/
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+        /*margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }*/
+ 
+    /*.search-query:focus + button {
+        z-index: 3;   
+    }*/
+    .box{
+      top: 4232px;
+      left: -35px;
+      width: 1515px;
+      height: 349px;
+     background: #FAF9FC !important;
+      border: 1px solid #6500FF;
+       border-radius: 2px;
+       opacity: 1;
+    }
+    .button {
+      font: Medium 16px/17px Space Grotesk;
+      letter-spacing: 0.67px;
+      color: #191919;
+      opacity: 1;
+    }
+    .sanjay{
+       text-align: center;
+    font: Medium 91px/101px Space Grotesk;
+    letter-spacing: 3.82px;
+    color: #191919;
+    opacity: 1;
+    top: 25px;
+    left: -6px;
+    width: 818px;
+    height: 84px;
+}
+card-title
+
+    }

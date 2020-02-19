@@ -1,0 +1,162 @@
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Arapey:400,400i,600|Open+Sans:300" rel="stylesheet">  
+</head>
+<style>
+  body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #232323;
+}
+
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+            
+.timeline {
+  width: 100%;
+  height: 100px;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;      
+  justify-content: center;    
+}
+
+.timeline .events {
+  position: relative;
+  background-color: #606060;
+  height: 3px;
+  width: 100%;
+  border-radius: 4px;
+  margin: 5em 0;
+ }
+
+.timeline .events ol {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.timeline .events ul {
+  list-style: none;
+}
+
+.timeline .events ul li {
+  display: inline-block;
+  width: 24.65%;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline .events ul li a {
+  font-family: 'Arapey', sans-serif;
+  font-style: italic;
+  font-size: 1.25em;
+  color: #606060;
+  text-decoration: none;
+  position: relative;
+  top: -32px;
+}
+
+.timeline .events ul li a:after {
+  content: '';
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  right: auto;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 3px solid #606060;
+  background-color: #fff;
+  transition: 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.timeline .events ul li a:hover::after {
+  background-color: #194693;
+  border-color: #194693;
+}
+
+.timeline .events ul li a.selected:after {
+  background-color: #194693;
+  border-color: #194693;
+}
+            
+.events-content {
+  width: 100%;
+  height: 100px;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;      
+  justify-content: left;
+}
+
+.events-content li {
+  display: none;
+  list-style: none;
+}
+
+.events-content li.selected {
+  display: initial;
+}
+
+.events-content li h2 {
+  font-family: 'Frank Ruhl Libre', serif;
+  font-weight: 500;
+  color: #919191;
+  font-size: 2.5em;
+}
+  </style>
+  
+  <body>
+    <div class="timeline">
+      <div class="events">
+        <ol>
+          <ul>
+            <li>
+              <a href="#0" class="selected">Early Life</a>
+            </li>
+            <li>
+              <a href="#1">Career</a>
+            </li>
+            <li>
+              <a href="#2">Philosophy</a>
+            </li>
+            <li>
+              <a href="#3">Legacy</a>
+            </li>
+          </ul>
+        </ol>
+      </div>
+    </div>
+    
+    <div class="events-content">
+      <ol>
+        <li id="0" class="selected">
+  				<h2>Early Life &amp; Education</h2>
+          <p>hello world</p>
+        </li>
+        
+        <li id="1">
+  				<h2>Career</h2>
+          <p>new york times</p>
+        </li>
+        
+        <li id="2">
+  				<h2>Philosophy</h2>
+          <p>here</p>
+        </li>
+        
+        <li id="3">
+  				<h2>Legacy</h2>
+          <p>after</p>
+        </li>
+      </ol>
+    </div>
+  </body>
+</html>

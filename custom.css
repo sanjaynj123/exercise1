@@ -1,0 +1,49 @@
+ a {
+    color:black;
+    text-decoration: none;
+    background-color: transparent;
+    margin:12px;
+}
+ rm-header{
+ 	padding:4px;
+ 	width:1px;
+ }
+  .btn{
+  	color: black;
+  	margin-top: 4px;
+  	border-radius: 2px;
+  	margin:12px;
+  }
+  *, ::after, ::before {
+     box-sizing: border-box; 
+}
+img{
+	text-align: center;
+	margin-top:90px;
+	margin-left: 303px;
+    margin-right: auto;
+  }
+  .group{
+  	top: 173px;
+left: 760px;
+width: 17px;
+height: 19px;
+background: transparent url('img/Group 35.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+  }
+  .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-left: 322px;
+}
+.rect{
+top: 573px;
+left: 604px;
+width: 242px;
+height: 64px;
+border: 1px solid #6500FF;
+border-radius: 2px;
+opacity: 1;
+}
+   
